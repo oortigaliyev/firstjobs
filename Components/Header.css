@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 15px grey;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.header_logo{
+    padding: 10px 20px 10px 30px;
+    display: flex;
+    flex: 1;
+}
+ul{
+    display: flex;
+    margin-right: 40px;
+
+}
+.nav_links{
+    list-style: none;
+    margin-left: 40px ;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    transition: all 1s ease-in-out 0s;
+    color: red;
+    background-color:blue;
+}
+.log{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid blue;
+}
